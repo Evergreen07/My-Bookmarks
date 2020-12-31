@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <title>My Bookmarks</title>
+</head>
+<body onload="GetBookmark()">
+    <nav class="container nav">
+        <div class="search">
+            <h2><i class="fas fa-bookmark fa-lg"></i> &nbsp; My Bookmarks</h2>
+            <form action="" class="search-form">
+                <input type="search" name="" id="type">
+                <i class="fas fa-search fa-lg" id="search-button"></i>
+            </form>
+        </div>
+    </nav>
+
+    <!-- <br> -->
+
+    <section class="container jumbo">
+        <form action="" id="form">
+           <div>
+                <label for="">Bookmark &nbsp;Name</label>
+                <input autocomplete="off" type="text" id="name">
+           </div>
+           <br>
+            <div>
+                <label for="">Bookmark &nbsp;URL</label>
+                <input type="url" id="url">
+            </div>
+            <div class="msg"></div>
+            <input type="submit" value="Add Bookmark">
+        </form>
+    </section>
+    
+    <!-- <br> -->
+
+    <section class="container display" id="show">
+    <!-- <div class="card"> 
+            <a href="https://www.google.com/" target="blank">Google</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <div class="card"> 
+            <a href="#" target="blank">Facebook</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <div class="card"> 
+            <a href="#" target="blank">LinkedIn</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <div class="card"> 
+            <a href="#" target="blank">YouTube</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <div class="card"> 
+            <a href="#" target="blank">Twitter</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div>
+        <div class="card"> 
+            <a href="#" target="blank">Coursera</a>
+            <i class="fas fa-window-close fa-lg"></i>
+        </div> -->
+    </section>
+
+    <!-- <br> -->
+
+    <footer class="container footer">
+        Copyright &copy; 2020 Evergreen
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
